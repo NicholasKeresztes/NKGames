@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    color: red;
+    max-width: 820px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+.container {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+}
+
+.subtitle {
+    margin-left:12px;
+    font-size: 24px;
+}
+/* NAVIGATION*/
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 24px;
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: rgba(0, 0, 0, 0.74);
+    text-decoration: underline red;
+}
+
+.nav__links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__link {
+    padding: 12px 24px;
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+}
+
+.nav__link:hover {
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+}
+
+/* Pre-Order Now */ 
+
+.mario-rpg {
+    display: flex;
+    background-color: red;
+    padding: 12px;
+    width: 100%;
+    border: 2px solid white;
+}
+
+.buy-now {
+    position: relative;
+    left: 7px;
+    max-width: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-desc {
+    font-size: 100px;
+    color: white;
+    text-shadow: 12px black;
+}
+
+.add-to-cart {
+    color: red;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+    bottom: 60px;
+}
+
+.add-to-cart:hover {
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+/* Socials Info */ 
+
+.info-website {
+    
+}
+
+.socials-info {
+    width: relative;
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    margin:12px;
+    font-size: 20px;
+    color: white;
+}
+
+.social {
+    font-size: 30px;
+}
+.social:hover {
+    cursor: pointer;
+}
+
+/* Website Info */ 
+
+.info {
+    background-color: red;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.about-nk {
+    max-width: 50%;
+    color: white;
+    margin: 0 12px;
+}
+
+.right-info {
+    margin: 0 auto;
+}
+
+/* FOOTER */ 
+
+.footer__link {
+   margin-left: 12px;
+   text-decoration: none;
+   color: red;
+}
+
+.footer__link:hover{
+        text-decoration: underline black;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.footer__rights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
